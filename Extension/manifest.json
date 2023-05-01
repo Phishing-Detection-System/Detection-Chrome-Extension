@@ -1,0 +1,15 @@
+{
+  "name": "Phishing Detection",
+  "description": "Detect whether website is malicious or not",
+  "permissions": ["tabs"],
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "phish.png"
+  },
+  "content_security_policy": {
+    "script-src": "self",
+    "object-src": "self"
+  }
+}
